@@ -1,6 +1,6 @@
 # DeepFakesON-Phys: DeepFakes Detection based on Heart Rate Estimation
 
-![Header](images/diagrama1.png)
+![Header](images/dibujo1.pdf)
 
 ## Overview
 DeepFakesON-Phys is DeepFake detection framework based on physiological measurement. In particular, it considers
@@ -11,6 +11,8 @@ DeepFakesONPhys has been experimentally evaluated using the latest public databa
 achieved, above 98% AUC (Area Under the Curve) on both databases, outperform the state of the art and prove the success of fake detectors based on physiological measurement to detect the latest DeepFake videos.
 
 For further detail you can consult [our paper](https://arxiv.org/pdf/2010.00400.pdf).
+
+![Example](images/cases_scores.pdf)
 
 ## Access
 
