@@ -49,11 +49,12 @@ For further detail you can consult [our paper](https://arxiv.org/pdf/2010.00400.
 -- Using DeepFakesON-Phys for predicting scores: (under work)
 
   1) Download or clone the repository. 
-  2) Due to the size of the video example, please download the DeepFakesON-Phys pretrained model and place the downloaded .h5 file it in the /src folder:  
   
-  - <a href="https://github.com/BiDAlab/DeePFakesON-Phys/releases/download/v1/DeepFakesON-Phys.h5" rel="nofollow">DeepFakesON-Phys pretrained model</a> 
-  
-  3) You have to run the DeepFakesON-Phys_extract_preditions.py script. First, it preprocesses the video sequences to obtain the raw normalized frames and the difference frames   to feed DeepFakesON-Phys. Then it makes inference with the processed input and returns a fake/genuine score for each frame in the video and saves them in the scores.txt file.   You can combine the individual scores as you wish, e.g., by temporal windows, using some kind of temporal integration, etc.
+  2) You have to run the DeepFakesON-Phys_extract_preditions.py script. 
+        
+        First, it preprocesses the video sequences to obtain the raw normalized frames and the difference frames to feed DeepFakesON-Phys. 
+        
+        Then it makes inference with the processed input and returns a fake/genuine score for each frame in the video and saves them in the scores.txt file. You can combine the individual scores as you wish, e.g., by temporal windows, using some kind of temporal integration, etc.
   
 
 
