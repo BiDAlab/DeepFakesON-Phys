@@ -46,17 +46,13 @@ For further detail you can consult [our paper](https://arxiv.org/pdf/2010.00400.
 3) If you want to use a CUDA compatible GPU for faster predictions you will need CUDA and the Nvidia drivers installed in your computer: https://docs.nvidia.com/deeplearning/sdk/cudnn-install/
  
    
--- Using DeepFakesON-Phys for predicting scores: (under work)
+-- Using DeepFakesON-Phys for predicting scores:
 
   1) Download or clone the repository. 
   
-  2) You have to run the vid_to_deepframes_rawframes.py script.
-  
-  It preprocesses the video sequences to obtain the raw normalized frames and the difference frames to feed DeepFakesON-Phys. 
+  2) You have to run the vid_to_deepframes_rawframes.py script : it preprocesses the video sequences to obtain the raw normalized frames and the difference frames to feed DeepFakesON-Phys. 
         
-  3) Run the DeepFakesON-Phys_extract_preditions.py script.
-  
-  It makes inference with the processed input and returns a fake/genuine score for each frame in the video and saves them in the scores.txt file. You can combine the individual scores as you wish, e.g., by temporal windows, using some kind of temporal integration, etc.
+  3) Run the DeepFakesON-Phys_extract_preditions.py script: it makes inference with the processed input and returns a fake/genuine score for each frame in the video and saves them in the scores.txt file. You can combine the individual scores as you wish, e.g., by temporal windows, using some kind of temporal integration, etc.
   
 
 
